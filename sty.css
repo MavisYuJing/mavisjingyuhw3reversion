@@ -1,0 +1,62 @@
+/* 
+    USER NAME: 
+*/
+input{
+    outline-style: none;
+    padding: 5px 10px;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.alert_slot{
+    color: rgb(204, 0, 0);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    height: 20px;
+}
+.btn{
+    display: block;
+    max-width: 100px;
+    outline-style: none;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(29, 153, 255);
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+    outline-style: none;
+}
+.table_slot{
+    max-width: 1200px;
+    min-width: 300px;
+    overflow-x: auto;
+    height: 600px;
+    margin: 0 auto;
+     position: relative;
+     border-collapse:collapse;
+}
+.tb{
+    width: 100%;
+    border-collapse:collapse;
+}
+th{
+    border-collapse:collapse;
+    background-color: rgb(226, 226, 226);
+}
+
+/* tbody {
+    background-color: rgb(226, 226, 226);
+} */
+tbody tr:nth-child(2n) td:first-child{
+    background-color: rgb(226, 226, 226);
+}
+tbody tr:nth-child(2n-1) td:first-child{
+    background-color: rgb(255, 255, 255);
+}
+
+tbody tr:nth-child(2n){
+    background-color: rgb(226, 226, 226);
+}
